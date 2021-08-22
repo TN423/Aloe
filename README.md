@@ -62,24 +62,18 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 ## Ratings and Reviews
-
-**Meta-reviews and Product Review List**
-
 ![](gifs_and_images/Reviews.png)
 
+**Submit Review**
+![](gifs_and_images/Modal.png)
+
+**Features**
 This widget allows customers to view the aggregated opinions of prior buyers
 * Built bar charts and sliders to improve data visualization
 * Created a star rating system
 * Implemented sorting
 * Translated and rendered review data from black box API
-
-**Submit Review**
-
-![](gifs_and_images/Modal.png)
-
-Created a modal to contain form information
-* Users can post a new review
-
+* Created a modal to contain form information, which users can post
 
 **Challenges and Tradeoffs**
 * Ambiguous API documentation
