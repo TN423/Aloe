@@ -4,7 +4,7 @@ Project Catwalk is a front-end e-commerce store front
 ## Developers
 - **Angie Rodriguez** - Product Overview
 - **Jason Chen** - Related Products
-- **Justin Hurst** - Ratings And Reviews
+- **Justin Hurst** - Ratings and Reviews
 
 
 ## Table of Contents
@@ -103,7 +103,7 @@ This widget allows customers to view the aggregated opinions of prior buyers. Cu
 ## Build Project
 Follow these steps to run the project:
 - Clone down the repo in the terminal
-  * `git clone https://github.com/aloe-nyc/FEC-Catwalk.git`
+  * `git clone https://github.com/TN423/Catwalk.git`
 - Add personal github token
   * Go to the exampleConfig.js file and rename to config.js
   * Replace `UPDATE ME` with github key into config.js
