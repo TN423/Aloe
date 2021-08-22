@@ -62,20 +62,30 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 ## Ratings and Reviews
-This widget allows customers to view the opinions ratings of prior buyers
+This widget allows customers to view the aggregated opinions of prior buyers
+
+
+
+
+
+
+**Features**
+
+Meta-reviews and Product Review List
 
 ![](gifs_and_images/Reviews.png)
 
-**Features**
-* Meta-reviews - allow users to view average rating data
-  * Built bar charts and sliders to improve data visualization
-  * Created a star rating system
-* Product Review List
-  * Implemented sorting
-  * Translated and rendered review data from black box API
-* Add Review
-  * Created a modal to contain form information
-  * Allows users to post a new review
+* Built bar charts and sliders to improve data visualization
+* Created a star rating system
+* Implemented sorting
+* Translated and rendered review data from black box API
+
+Submit Review
+
+![](gifs_and_images/Modal.png)
+
+* Users can post a new review
+* Created a modal to contain form information
 
 **Challenges and Tradeoffs**
 * Ambiguous API documentation
@@ -83,7 +93,7 @@ This widget allows customers to view the opinions ratings of prior buyers
 * Styling:
     * Choice between pre-existing libraries vs implementing from scratch in CSS
 * State and prop management
-    * Ensuring that reviews would update whenever a new product item was clicked
+    * Need to ensure that reviews would update whenever a new product item was clicked
 
  <!-- ![](gifs_and_images/ratingsAndReviews.gif) -->
  <!-- ![](gifs_and_images/screenshots/ratingsAndReviews_modal.png) -->
@@ -92,8 +102,8 @@ This widget allows customers to view the opinions ratings of prior buyers
 
 ## Data Integration and Component Organization
 
-  * API and Data Retrieval : the Related Products widget requiring the most expense in data retrieval. However, all 3 components make API calls, which led to some performance challenges. We attempted to solve the issue with caching
-  * State management: We did not use a state manager. Instead, the Relate Products widget sets a product ID on our top level App component, which then 'drills down' the product ID as a property
+  * API and Data Retrieval : the Related Products widget is the most 'expensive' in terms of data retrieval. However, all 3 components make API calls, which led to some performance challenges. We attempted to solve the issue with caching.
+  * State management: We did not use a state manager. Instead, the Related Products widget sets a product ID on our top level App component, which then 'drills down' the product ID as a property
 
 
 ## Build Project

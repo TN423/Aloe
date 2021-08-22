@@ -116,7 +116,7 @@ class Modal extends React.Component {
       <div className={this.props.show ? 'modal display-block' : 'modal display-none'}>
         <div className='modal-main'>
           {/* {this.props.children} */}
-          <h2 className='write-review-Modal'>Leave A Review</h2>
+          <h2 className='write-review-Modal'>Submit Review</h2>
           <label>Star Rating</label>
           <span className="star-cb-group">
             <input type="radio" id="rating-5" name="rating" onChange={this.handleIntChange} value="5" checked={this.state.rating === 5}/><label for="rating-5">5</label>
