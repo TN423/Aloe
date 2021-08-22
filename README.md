@@ -62,19 +62,16 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 ## Ratings and Reviews
+This widget allows customers to view the aggregated opinions of prior buyers. Customers also have the option to post their own review.
 
-**Product Rating & Review List**
 ![](gifs_and_images/Reviews.png)
-
-**Submit Review**
 
 ![](gifs_and_images/Modal.png)
 
 **Features**
-This widget allows customers to view the aggregated opinions of prior buyers
+
 * Built bar charts and sliders to improve data visualization
 * Created a star rating system
-* Implemented sorting
 * Translated and rendered review data from black box API
 * Created a modal to contain form information, which users can post
 
