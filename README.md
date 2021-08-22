@@ -62,9 +62,12 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 ## Ratings and Reviews
+
+**Product Rating & Review List**
 ![](gifs_and_images/Reviews.png)
 
 **Submit Review**
+
 ![](gifs_and_images/Modal.png)
 
 **Features**
