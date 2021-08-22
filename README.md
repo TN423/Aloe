@@ -4,7 +4,7 @@ Project Catwalk is a front-end e-commerce store front
 ## Developers
 - **Angie Rodriguez** - Product Overview
 - **Jason Chen** - Related Products
-- **Justin Hurst** - Ratings & Reviews
+- **Justin Hurst** - Ratings and Reviews
 
 
 ## Table of Contents
@@ -13,7 +13,7 @@ Project Catwalk is a front-end e-commerce store front
 
 2. [**Related Products:**](#related-products) Displays two sets of related products
 
-3. [**Ratings & Reviews:**](#ratings-and-reviews) Displays the reviews and ratings of previous buyers
+3. [**Ratings & Reviews:**](#ratings-&-reviews) Displays the reviews and ratings of previous buyers
 
 ## Tech/framework used
 
@@ -68,7 +68,7 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 ## Ratings & Reviews
-This is the ratings & reviews widget of an e-commerce storefront. Customers can view prior reviews and also post their own. Built with React, Node.js, CSS, and Express.
+This is the ratings and reviews component of an e-commerce storefront. Customers can view prior reviews and also post their own. Built with React, Node.js, CSS, and Express.
 
 ![](gifs_and_images/Reviews.png)
 
