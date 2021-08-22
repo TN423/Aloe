@@ -77,11 +77,11 @@ This widget allows customers to view the aggregated opinions of prior buyers. Cu
 
 **Challenges and Tradeoffs**
 * Ambiguous API documentation
-    * Required testing endpoints with postman to work out bugs
+    * Required testing endpoints with Postman to work out bugs
 * Styling:
-    * Choice between pre-existing libraries vs implementing from scratch in CSS
+    * Choice between pre-existing libraries (such as C3.js) vs implementing from scratch in CSS
 * State and prop management
-    * Needed to ensure that reviews would update whenever a new product item was clicked
+    * Needed to ensure that reviews would update whenever a new product item was clicked. Used React's 'componentDidUpdate()' lifecycle method to achieve this.
 
  <!-- ![](gifs_and_images/ratingsAndReviews.gif) -->
  <!-- ![](gifs_and_images/screenshots/ratingsAndReviews_modal.png) -->
