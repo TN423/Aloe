@@ -68,7 +68,7 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 ## Ratings and Reviews
-This widget allows customers to view the aggregated opinions of prior buyers. Customers also have the option to post their own review.
+This is the ratings & reviews component of an e-commerce storefront. Customers can view prior reviews and also post their own. Built with React, Node.js, CSS, and Express.
 
 ![](gifs_and_images/Reviews.png)
 
