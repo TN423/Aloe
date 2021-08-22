@@ -13,7 +13,7 @@ Project Catwalk is a front-end e-commerce store front
 
 2. [**Related Products:**](#related-products) Displays two sets of related products
 
-3. [**Ratings And Reviews:**](#ratings-and-reviews) Displays the reviews and ratings of previous buyers
+3. [**Ratings and Reviews:**](#ratings-and-reviews) Displays the reviews and ratings of previous buyers
 
 ## Tech/framework used
 
