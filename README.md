@@ -61,27 +61,29 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 
-## Ratings And Reviews
-This widget allows customers to view the reviews of previous buyers, prior to making their own purchase decision
+## Ratings and Reviews
+This widget allows customers to view the opinions ratings of prior buyers
+
+![](gifs_and_images/Reviews.png)
 
 **Features**
-1. Meta-reviews - allow users to view average rating data
+* Meta-reviews - allow users to view average rating data
   * Built bar charts and sliders to improve data visualization
-* Created a star rating system
-2. Product Review List
+  * Created a star rating system
+* Product Review List
   * Implemented sorting
-* Translated and rendered review data from black box API
-3. Add Review
+  * Translated and rendered review data from black box API
+* Add Review
   * Created a modal to contain form information
   * Allows users to post a new review
 
 **Challenges and Tradeoffs**
-1. Ambiguous API documentation
-  * Required testing endpoints with postman to work out bugs
-2. Styling:
-  * Choice between pre-existing libraries vs implementing from scratch in CSS
-3. State and prop management
-  * Ensuring that reviews would update whenever I new product item was clicked
+* Ambiguous API documentation
+    * Required testing endpoints with postman to work out bugs
+* Styling:
+    * Choice between pre-existing libraries vs implementing from scratch in CSS
+* State and prop management
+    * Ensuring that reviews would update whenever a new product item was clicked
 
  <!-- ![](gifs_and_images/ratingsAndReviews.gif) -->
  <!-- ![](gifs_and_images/screenshots/ratingsAndReviews_modal.png) -->
