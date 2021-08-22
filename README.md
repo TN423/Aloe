@@ -1,6 +1,12 @@
 # Project Catwalk
 Project Catwalk is a front-end e-commerce store front
 
+## Developers
+- **Angie Rodriguez** - Product Overview
+- **Jason Chen** - Related Products
+- **Justin Hurst** - Ratings And Reviews
+
+
 ## Table of Contents
 
 1. [**Product Overview:**](#product-overview) Shows relevant overview information for a single product in the catalogue
@@ -107,7 +113,4 @@ Follow these steps to run the project:
 - Run Sass styling - `npm run sass-dev`
 
 
-## Developers
-- **Angie Rodriguez** - Product Overview
-- **Jason Chen** - Related Products
-- **Justin Hurst** - Ratings And Reviews
+
