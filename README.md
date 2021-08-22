@@ -4,7 +4,7 @@ Project Catwalk is a front-end e-commerce store front
 ## Developers
 - **Angie Rodriguez** - Product Overview
 - **Jason Chen** - Related Products
-- **Justin Hurst** - Ratings and Reviews
+- **Justin Hurst** - Ratings & Reviews
 
 
 ## Table of Contents
