@@ -69,9 +69,7 @@ This widget allows customers to view the aggregated opinions of prior buyers
 
 
 
-**Features**
-
-Meta-reviews and Product Review List
+**Meta-reviews and Product Review List**
 
 ![](gifs_and_images/Reviews.png)
 
@@ -80,8 +78,7 @@ Meta-reviews and Product Review List
 * Implemented sorting
 * Translated and rendered review data from black box API
 
-Submit Review
-
+**Submit Review**
 ![](gifs_and_images/Modal.png)
 
 * Users can post a new review
