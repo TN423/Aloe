@@ -7,12 +7,12 @@ import Footer from './Footer';
 import Main from '../src/Reviews_Ratings/main.jsx';
 import RelatedItems from '../src/Related_Items/Related_Items';
 
-
+//test
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      productID: 11006,
+      productID: 39333,
       productName: sampleData.name,
       productCategory: sampleData.category,
       productPrice: sampleData.default_price,

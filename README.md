@@ -22,12 +22,13 @@ Project Catwalk is a front-end e-commerce store front
 - Node.js
 - Express
 - React
-- SASS
 
 
 
 ## Product Overview
 This widget will show relevant information for a single product in the catalogue. Page should be uniform - every product rendered in same fashion.
+
+![](gifs_and_images/Products.png)
 
 **Features**
 1. Product Information: General information about the product , including Star rating (based on reviews)including a hyperlink to direct viewer to rating & review widget.
@@ -50,6 +51,9 @@ This widget will show relevant information for a single product in the catalogue
 ## Related Products
 The Related Items & Comparison module will display two sets of related products.  The first set will be a list of products, determined internally, that are related to the product currently being viewed.  The second set will be a list, custom created by the user, of products which the user has grouped with the current product into an ‘outfit’.
 This widget interacts with the app state the most out of all the components- it changes the whole page’s product, pulls data from cookies, makes a heck of a lot of API requests.
+
+![](gifs_and_images/Related.png)
+
 
 **Features**
 1. Custom ‘carousel’ list behavior

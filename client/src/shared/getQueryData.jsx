@@ -91,7 +91,7 @@ axios.interceptors.response.use(response => {
 function loadProductStyle(productID) {
   var allConfig = {
     method: 'get',
-    url: `http://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/products/${productID}/styles`,
+    url: `http://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/products/${productID}/styles`,
     headers: {Authorization: config.TOKEN},
   };
 
@@ -107,7 +107,7 @@ function loadProductStyle(productID) {
       console.log('err');
     });
 
-  allConfig.url = `http://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/products/${productID}`;
+  allConfig.url = `http://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/products/${productID}`;
 
   axios(allConfig)
     .then((res) => {
@@ -121,7 +121,7 @@ function loadProductStyle(productID) {
 
 function getProductData(productID) {
   axios.get(
-    `https://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/products/${productID}/`,
+    `https://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/products/${productID}/`,
     {headers: {Authorization: config.TOKEN}})
     .then(results => {
       this.setState({
@@ -139,7 +139,7 @@ function getProductData(productID) {
 
 function getProductImage(productID) {
   axios.get(
-    `https://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/products/${productID}/styles`,
+    `https://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/products/${productID}/styles`,
     {headers: {Authorization: config.TOKEN}})
     .then(results => {
       // find the default style
@@ -163,7 +163,7 @@ function getProductImage(productID) {
 
 function getProductRating(productID) {
   axios.get(
-    `https://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/reviews/meta/?product_id=${productID}`,
+    `https://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/reviews/meta/?product_id=${productID}`,
     {headers: {Authorization: config.TOKEN}})
     .then(results => {
       const ratingsMetadata = Object.entries(results.data.ratings);
@@ -187,7 +187,7 @@ function getProductRating(productID) {
 
 function getRelatedProducts(productID) {
   axios.get(
-    `https://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/products/${productID}/related`,
+    `https://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/products/${productID}/related`,
     {headers: {Authorization: config.TOKEN}})
   .then((results) => {
     this.setState({relatedProductsList: results.data})
@@ -200,7 +200,7 @@ function getRelatedProducts(productID) {
 function getAllReviews (productID) {
   axios({
     method: 'get',
-    url: `https://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/reviews/?product_id=${productID}`,
+    url: `https://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/reviews/?product_id=${productID}`,
     headers: {
       'Authorization': config.TOKEN
     },
@@ -220,7 +220,7 @@ function getAllReviews (productID) {
 function getReviews (productID, count, sort) {
   axios({
     method: 'get',
-    url: `https://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/reviews/?product_id=${productID}`,
+    url: `https://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/reviews/?product_id=${productID}`,
     headers: {
       'Authorization': config.TOKEN
     },
@@ -243,7 +243,7 @@ function getReviews (productID, count, sort) {
 function getMeta (productID) {
   return axios({
     method: 'get',
-    url: `https://app-hrsei-api.herokuapp.com/api/fec2/hrnyc/reviews/meta?product_id=${productID}`,
+    url: `https://app-hrsei-api.herokuapp.com/api/fec2/hr-nyc/reviews/meta?product_id=${productID}`,
     headers: {
       'Authorization': config.TOKEN
     }
