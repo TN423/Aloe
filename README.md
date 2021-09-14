@@ -100,6 +100,8 @@ This is the ratings and reviews component of an e-commerce storefront. Customers
 
 ## Data Integration and Component Organization
 
+![](gifs_and_images/Frontend.png)
+
   * API and Data Retrieval: the Related Products widget is the most 'expensive' in terms of interactions with an external API. However, all 3 components make API calls, which led to some performance challenges. We attempted to solve the issue with caching.
   * State management: We did not use a state manager. Instead, the Related Products widget sets a product ID on our top level App component, which then 'drills' down the selected product ID as a property
 
