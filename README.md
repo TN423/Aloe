@@ -1,5 +1,10 @@
-# Project Catwalk
-Project Catwalk is a front-end e-commerce store front
+<h1 align="center" style="font-size: 2.7rem;">Aloe</h1>
+
+<h2 align="center" style="font-size: 1.5rem;">Aloe is an e-commerce store front<br><br>
+
+![](gifs_and_images/Products.png)
+
+
 
 ## Table of Contents
 
