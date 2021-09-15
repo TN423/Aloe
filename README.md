@@ -118,4 +118,11 @@ Follow these steps to run the project:
 - **Jason Chen** - Related Products
 - **Justin Hurst** - Ratings and Reviews
 
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/swizzlestix09"><img src="https://avatars.githubusercontent.com/u/34196367?v=4" width="100px;" alt=""/><br /><sub><b>Angely Rodriguez</b></sub></a<br /></td>
+    <td align="center"><a href="https://github.com/7u1ian"><img src="https://avatars.githubusercontent.com/u/42424216?v=4" width="100px;" alt=""/><br /><sub><b>Jason Chen</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/TN423"><img src="https://avatars.githubusercontent.com/u/80915187?v=4" width="100px;" alt=""/><br /><sub><b>Justin Hurst</b></sub></a><br /></td>
 
+  </tr>
+</table>
