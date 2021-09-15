@@ -118,7 +118,7 @@ Follow these steps to run the project:
 - Run Sass styling - `npm run sass-dev`
 
 
-## Developers
+## Contributors
 
 <table>
   <tr>
