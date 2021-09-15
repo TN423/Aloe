@@ -108,7 +108,7 @@ This is the ratings and reviews component of an e-commerce storefront. Customers
 ## Build Project
 Follow these steps to run the project:
 - Clone down the repo in the terminal
-  * `git clone https://github.com/TN423/Catwalk.git`
+  * `git clone https://github.com/TN423/Aloe.git`
 - Add personal github token
   * Go to the exampleConfig.js file and rename to config.js
   * Replace `UPDATE ME` with github key into config.js
