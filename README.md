@@ -1,6 +1,6 @@
 <h1 align="center" style="font-size: 2.7rem;">Aloe</h1>
 
-<h2 align="center" style="font-size: 1.5rem;">Aloe is an e-commerce store front<br><br>
+<h2 align="center" style="font-size: 1.5rem;">An e-commerce retail store front<br><br>
 
 ![](gifs_and_images/Products.png)
 
@@ -71,7 +71,7 @@ This widget interacts with the app state the most out of all the components- it 
 
 
 ## Ratings and Reviews
-This is the ratings and reviews component of an e-commerce storefront. Customers can view prior reviews and also post their own. Built with React, Node.js, CSS, and Express.
+This is the ratings and reviews component of an e-commerce storefront. Customers can view prior reviews and also post their own.
 
 ![](gifs_and_images/Reviews.png)
 
@@ -119,9 +119,6 @@ Follow these steps to run the project:
 
 
 ## Developers
-- **Angie Rodriguez** - Product Overview
-- **Jason Chen** - Related Products
-- **Justin Hurst** - Ratings and Reviews
 
 <table>
   <tr>
