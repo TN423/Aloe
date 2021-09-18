@@ -88,7 +88,7 @@ This is the ratings and reviews component of an e-commerce storefront. Customers
 * Ambiguous API documentation
     * Required testing endpoints with Postman to work out bugs
 * Styling:
-    * Choice between pre-existing libraries (such as C3.js) vs implementing from scratch in CSS
+    * Choice between pre-existing libraries (such as C3.js) vs implementing from scratch in CSS.
 * State and prop management
     * Needed to ensure that reviews would update whenever a new product item was clicked. Used React's 'componentDidUpdate()' lifecycle method to achieve this.
 
