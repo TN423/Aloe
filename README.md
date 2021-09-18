@@ -61,7 +61,7 @@ This widget interacts with the app state the most out of all the components- it 
   * Displays product data and is shared between the two lists (Related Items & Comparison)
 3. Clicking
   * Clicking on an action button from Related Items will bring up a comparison modal that compares features of the current product and the related product
-  * Clicking on the ‘+’ icon in My Outfit will add the current product to the outfit. This outfit list is stored in cookies and will persist on refresh or page revisit
+  * Clicking on the ‘+’ icon in My Outfit will add the current product to the outfit. This outfit list is stored in cookies and will persist on refresh or page revisit.
 
 **Challenges and Tradeoffs**
 * The API we used was structured in a way that made it necessary to make 3 requests per card: one for product image, one for features, and one for ratings. This meant that this widget was constantly skirting the line to a 429 error (too many requests). To solve this, I implemented a caching function that intercepts outgoing requests and returns a cached response if an identical request was made previously.
