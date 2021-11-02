@@ -1,8 +1,10 @@
 const express = require('express');
-
+const compression = require('compression');
 let app = express();
+app.use(compression())
 app.use(express.static(__dirname + '/../client/dist'));
 app.use(express.json());
+
 
 //server endpoints
 
